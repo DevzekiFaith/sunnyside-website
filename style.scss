@@ -1,0 +1,478 @@
+@import "./node_modules/bootstrap/dist/css/bootstrap.css";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  // background-color: cornflowerblue;
+  height: 3600px;
+}
+
+.cc-container {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1440px;
+  position: relative;
+
+  & .nav-content1 li:nth-of-type(4) {
+    color: black;
+    font-family: "Fraunces", serif;
+    font-weight: 800;
+    font-size: 10px;
+    margin-top: 5px;
+    background-color: white;
+    padding: 6px;
+    border-radius: 12px;
+
+     & .fourth-tag:hover{
+        cursor: pointer;
+        opacity: 0.7;
+    }
+  }
+
+  & .nav-content2 {
+    padding-right: 3rem;
+    margin-top: .6rem;
+  }
+
+  img {
+    margin-top: .8rem;
+  }
+}
+
+.nav-heropage {
+  background: url("./sunnyside-agency-landing-page-main/images/desktop/image-header.jpg");
+  width: 100%;
+  height: 100vh;
+  background-image: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+  h1 {
+    // background: linear-gradient( green, pink);
+    width: 30rem;
+    padding: 1.5rem;
+    position: absolute;
+    left: 31rem;
+    top: 13rem;
+    font-family: "Fraunces", serif;
+    font-weight: 800;
+    color: whitesmoke;
+  }
+
+  //   ARROW DOWN ON HEADER PAGE SECTION //   ARROW DOWN ON HEADER PAGE SECTION //   ARROW DOWN ON HEADER PAGE SECTION
+
+  & .arrow-down {
+    position: absolute;
+    left: 44rem;
+    top: 19rem;
+  }
+}
+
+.main {
+  //   background-color: cornflowerblue;
+  margin: 0 auto;
+  height: 14rem;
+
+  & .main-content {
+    display: flex;
+  }
+
+  & .transform {
+    // background-color: coral;
+    width: 100%;
+    position: relative;
+
+    h2 {
+      color: black;
+      font-family: "Fraunces", serif;
+      font-weight: 700;
+      width: 18rem;
+      position: absolute;
+      left: 14rem;
+      top: 12rem;
+    }
+    p {
+      color: rgba(167, 167, 167, 0.685);
+      width: 18rem;
+      font-size: 14px;
+      font-family: "Barlow Condensed", sans-serif;
+      line-height: 22px;
+      position: absolute;
+      left: 14rem;
+      top: 18rem;
+    }
+    h4 {
+      color: black;
+      font-size: 10px;
+      font-weight: 800;
+      font-family: "Fraunces", serif;
+      text-transform: uppercase;
+      margin-bottom: 0;
+      position: absolute;
+      left: 14rem;
+      top: 24rem;
+    }
+    & .hr {
+      width: 5rem;
+      height: 16px;
+      color: darkorange;
+      margin-top: 0;
+    }
+  }
+  & .brand-img {
+    background: url("./sunnyside-agency-landing-page-main/images/desktop/image-transform.jpg")
+      no-repeat;
+    background-image: center;
+    width: 100%;
+    height: 80vh;
+
+    p {
+      color: rgba(167, 167, 167, 0.685);
+      width: 18rem;
+      font-size: 14px;
+      font-family: "Barlow Condensed", sans-serif;
+      line-height: 22px;
+    }
+  }
+
+  .main2 {
+    // background-color: cornflowerblue;
+    margin: 0 auto;
+
+    & .stand-out-content {
+      display: flex;
+    }
+
+    & .stand-out {
+      background: url("./sunnyside-agency-landing-page-main/images/desktop/image-stand-out.jpg")
+        no-repeat;
+      width: 100%;
+      height: 80vh;
+    }
+
+    & .stand-write-content {
+      position: relative;
+      h1 {
+        font-family: "Fraunces", serif;
+        font-size: 2rem;
+        font-weight: 700;
+        width: 22rem;
+        position: absolute;
+        right: 12rem;
+        top: 10rem;
+      }
+
+      p {
+        color: rgba(167, 167, 167, 0.685);
+        width: 18rem;
+        font-size: 14px;
+        font-family: "Barlow Condensed", sans-serif;
+        line-height: 22px;
+        position: absolute;
+        right: 16rem;
+        top: 16rem;
+      }
+
+      h4 {
+        // background-color: red;
+        width: 16rem;
+        color: black;
+        font-size: 10px;
+        font-weight: 800;
+        font-family: "Fraunces", serif;
+        text-transform: uppercase;
+        margin-bottom: 0;
+        position: absolute;
+        right: 18rem;
+        top: 22.5rem;
+      }
+
+      span {
+        background-color: red;
+        padding: 4px;
+        width: 24px;
+        height: 1rem;
+        border-radius: 4px;
+      }
+    }
+  }
+
+  .main3 {
+    // background-color: cornflowerblue;
+    margin: 0 auto;
+
+    & .graphics {
+      background: url("./sunnyside-agency-landing-page-main/images/desktop/image-graphic-design.jpg")
+        no-repeat;
+      background-repeat: no-repeat;
+      width: 100%;
+      height: 80vh;
+      position: relative;
+
+      h1 {
+        font-family: "Fraunces", serif;
+        font-weight: 800;
+        font-size: 22px;
+        text-transform: capitalize;
+        position: absolute;
+        left: 16.7rem;
+        top: 22rem;
+      }
+
+      p {
+        width: 17.5rem;
+        text-align: center;
+        font-family: "Barlow Condensed", sans-serif;
+        color: hsl(167, 40%, 24%);
+        font-size: 15.8px;
+        line-height: 18px;
+        position: absolute;
+        bottom: 6rem;
+        left: 12.8rem;
+      }
+    }
+
+    & .photography {
+      background: url("./sunnyside-agency-landing-page-main/images/desktop/image-photography.jpg")
+        no-repeat;
+      background-repeat: no-repeat;
+      width: 100%;
+      height: 80vh;
+      position: relative;
+
+      h1 {
+        font-family: "Fraunces", serif;
+        font-weight: 800;
+        font-size: 22px;
+        text-transform: capitalize;
+        position: absolute;
+        left: 16.7rem;
+        top: 22rem;
+      }
+
+      p {
+        width: 17.5rem;
+        text-align: center;
+        font-family: "Barlow Condensed", sans-serif;
+        color: hsl(198, 62%, 26%);
+        font-size: 15.8px;
+        line-height: 18px;
+        position: absolute;
+        bottom: 6rem;
+        left: 12.8rem;
+      }
+    }
+
+    & .main3-content {
+      display: flex;
+    }
+  }
+
+  .main4 {
+    // background-color: red;
+    position: relative;
+
+    & .testimonial-content {
+      h1 {
+        // background-color: white;
+        position: absolute;
+        font-family: "Fraunces", serif;
+        font-size: 14px;
+        font-weight: 800;
+        color: rgb(147, 147, 147);
+        text-transform: uppercase;
+        left: 40rem;
+        top: -8rem;
+        z-index: 1;
+      }
+    }
+  }
+
+  .carousel-content {
+    width: 100%;
+    height: 10vh;
+    margin-top: 12rem;
+
+    & .carousel-inner {
+      width: 30%;
+      height: 30vh;
+      max-height: 400px !important;
+      margin: 0 auto;
+
+      & .carousel-item {
+        position: relative;
+
+        p {
+          width: 250px;
+          font-size: 12px;
+          font-family: "Barlow Condensed", sans-serif;
+          text-align: center;
+          position: absolute;
+          left: 6rem;
+          top: 8rem;
+        }
+
+        h4 {
+          font-size: 8px;
+          font-weight: 700;
+          font-family: "Fraunces", serif;
+          text-align: center;
+          position: absolute;
+          left: 12rem;
+          top: 11rem;
+        }
+
+        h6 {
+          font-size: 8px;
+          font-family: "Barlow Condensed", sans-serif;
+          color: rgb(124, 124, 124);
+          text-align: center;
+          position: absolute;
+          top: 12rem;
+          left: 11.8rem;
+        }
+
+        img {
+          width: 50%;
+          height: 50%;
+          border-radius: 50%;
+        }
+      }
+    }
+  }
+
+  .main5 {
+    // background-color: pink;
+    margin-top: 14rem;
+
+    & .gallery-photos {
+      //   background-color: pink;
+      display: flex;
+      justify-content: center;
+      align-items: baseline;
+      width: 100%;
+
+      //   img {
+      //     width: 312px;
+      //     height: 50vh;
+      //   }
+
+      & .gallery1 {
+        background-color: pink;
+        background: url("./sunnyside-agency-landing-page-main/images/desktop/image-gallery-milkbottles.jpg")
+          no-repeat;
+        background-image: cover;
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 60vh;
+      }
+
+      & .gallery2 {
+        background: url("./sunnyside-agency-landing-page-main/images/desktop/image-gallery-orange.jpg")
+          no-repeat;
+        background-image: cover;
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 60vh;
+      }
+
+      & .gallery3 {
+        background: url("./sunnyside-agency-landing-page-main/images/desktop/image-gallery-cone.jpg")
+          no-repeat;
+        background-image: cover;
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 60vh;
+      }
+
+      & .gallery4 {
+        background: url("./sunnyside-agency-landing-page-main/images/desktop/image-gallery-sugarcubes.jpg")
+          no-repeat;
+        background-image: cover;
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 60vh;
+      }
+    }
+  }
+
+  .main6 {
+    background-color: hsl(168, 56%, 69%);
+    height: 38vh;
+    position: relative;
+
+    & .footer-logo {
+      // background-color: white;
+      font-size: 26px;
+      font-family: "Barlow Condensed", sans-serif;
+      font-weight: 900;
+      color: hsl(168, 34%, 41%);
+
+      position: absolute;
+      left: 41.5rem;
+      top: 2.8rem;
+
+      a {
+        text-align: center;
+      }
+    }
+
+    & .footer-link {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 3rem;
+      position: absolute;
+      top: 7rem;
+      left: 36rem;
+      font-family: "Barlow Condensed", sans-serif;
+      font-size: 17px;
+
+      div a {
+        text-decoration: none;
+        text-align: center;
+      }
+    }
+
+    li {
+      list-style: none;
+      color: hsl(168, 34%, 41%);
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    li:hover {
+      color: white;
+      cursor: pointer;
+    }
+
+    & .footer-icon {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 3rem;
+
+      img {
+        width: 16px;
+        position: absolute;
+        top: 12rem;
+      }
+
+      img:hover {
+        background-color: white;
+      }
+    }
+  }
+}
